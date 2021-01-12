@@ -1,13 +1,10 @@
-// $('.close').click(function() {
-//     $('.hamburger-menu').hide();
-//   })
-
-
-  $(document).ready(function(){
+$(document).ready(function(){
+  $('.header-right').click(function() {
+      $('.hamburger-menu').show();
+    })
     $('.close').click(function() {
-        $('.hamburger-menu').show();
-      })
-      $('.close').click(function() {
-        $('.hamburger-menu').hide();
-      })
-  });
+      $('.hamburger-menu').hide();
+    })
+});
+
+
